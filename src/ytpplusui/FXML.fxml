@@ -34,7 +34,7 @@
             <CheckBox fx:id="cbEffect8" layoutX="29.0" layoutY="157.0" mnemonicParsing="false" selected="true" text="Speed Up Clip (/pitch)" />
             <CheckBox fx:id="cbEffect9" layoutX="29.0" layoutY="174.0" mnemonicParsing="false" selected="true" text="Slow Down Clip (/pitch)" />
             <CheckBox fx:id="cbEffect10" layoutX="29.0" layoutY="191.0" mnemonicParsing="false" selected="true" text="Dance" />
-            <CheckBox fx:id="cbEffect11" layoutX="29.0" layoutY="208.0" mnemonicParsing="false" selected="true" text="Squidward" />
+            <CheckBox fx:id="cbEffect11" layoutX="29.0" layoutY="208.0" mnemonicParsing="false" selected="true" text="Squidward (requires Magick)" />
             <Button fx:id="btnHelpMeEffect" layoutX="153.0" layoutY="10.0" mnemonicParsing="false" onAction="#helpMeEffect" prefHeight="25.0" prefWidth="28.0" text="?" />
          </children>
       </AnchorPane>
@@ -80,7 +80,7 @@
                </cursor>
             </Button>
             <Label alignment="CENTER" layoutX="12.0" layoutY="392.0" prefHeight="17.0" prefWidth="177.0" text="questions? comments? join the" textAlignment="CENTER" />
-            <Label alignment="CENTER" layoutX="12.0" layoutY="375.0" onMouseClicked="#openArcticZone" prefHeight="17.0" prefWidth="177.0" text="http://arctic.zone/" textAlignment="CENTER" underline="true">
+            <Label alignment="CENTER" layoutX="12.0" layoutY="375.0" onMouseClicked="#openArcticZone" prefHeight="17.0" prefWidth="177.0" text="https://github.com/YTP-Plus/" textAlignment="CENTER" underline="true">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>

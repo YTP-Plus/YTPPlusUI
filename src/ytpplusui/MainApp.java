@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
@@ -19,8 +20,9 @@ public class MainApp extends Application {
         Pane mainPane = (Pane)FXMLLoader.load(MainApp.class.getResource("FXML.fxml"));
         bigBoy.setScene(new Scene(mainPane));
         bigBoy.show();
-        bigBoy.setTitle("YTP+ [beta]");
+        bigBoy.setTitle("YTP+ Classic v1.2");
         bigBoy.setResizable(false);
+        bigBoy.getIcons().add(new Image("ytpplus.png"));
         //THIS SUCKS!
         Rectangle2D screenBounds = Screen.getPrimary().getVisualBounds();
         bigBoy.setX((screenBounds.getWidth() - bigBoy.getWidth()) / 2); 

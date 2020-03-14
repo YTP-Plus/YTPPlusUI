@@ -280,7 +280,7 @@ public class FXMLController {
                 + "magick commands can be called simply by saying \"convert...\".\n\n"
                 + "If you have separate installations of these tools, feel "
                 + "free to change what's in these boxes to suit your fancy.\n\n"
-                + "If you have no idea what any of this shit means, leave it be."
+                + "If you have no idea what any of this means, leave it be."
                 );
 
     }
@@ -403,7 +403,7 @@ public class FXMLController {
     void openDiscord(ActionEvent event) {
         try {
         if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
-            Desktop.getDesktop().browse(new URI("https://discord.gg/mAwQQt7"));
+            Desktop.getDesktop().browse(new URI("https://discord.gg/bzhzRmg"));
         }
         } catch (Exception ex) {} //how does that even happen
     }
@@ -412,7 +412,7 @@ public class FXMLController {
     void openArcticZone() {
         try {
         if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
-            Desktop.getDesktop().browse(new URI("https://arctic.zone/"));
+            Desktop.getDesktop().browse(new URI("https://github.com/YTP-Plus/"));
         }
         } catch (Exception ex) {} //how does that even happen
     }
