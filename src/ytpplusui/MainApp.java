@@ -20,7 +20,7 @@ public class MainApp extends Application {
         Pane mainPane = (Pane)FXMLLoader.load(MainApp.class.getResource("FXML.fxml"));
         bigBoy.setScene(new Scene(mainPane));
         bigBoy.show();
-        bigBoy.setTitle("YTP+ Classic v1.2");
+        bigBoy.setTitle("YTP+ Classic v1.3");
         bigBoy.setResizable(false);
         bigBoy.getIcons().add(new Image("ytpplus.png"));
         //THIS SUCKS!
